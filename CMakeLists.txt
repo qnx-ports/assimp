@@ -255,6 +255,7 @@ IF( UNIX )
       ADD_DEFINITIONS(-D_FILE_OFFSET_BITS=64 )
     ENDIF()
   ENDIF()
+  ADD_DEFINITIONS(-D_LARGEFILE64_SOURCE=1)
 ENDIF()
 
 # Grouped compiler settings ########################################
